@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -11,16 +12,23 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Pressure Gauges" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Received Pressure Msg.lvclass" Type="LVClass" URL="../Pressure Gauges/Pressure Gauges Messages/Received Pressure Msg/Received Pressure Msg.lvclass"/>
+			<Item Name="Pressure Gauges.lvclass" Type="LVClass" URL="../Pressure Gauges/Pressure Gauges/Pressure Gauges.lvclass"/>
+		</Item>
 		<Item Name="APG" Type="Folder">
-			<Item Name="APG.lvlib" Type="Library" URL="../APG/APG.lvlib"/>
+			<Item Name="APG.lvclass" Type="LVClass" URL="../APG/APG/APG.lvclass"/>
 		</Item>
 		<Item Name="Baratron" Type="Folder">
-			<Item Name="Baratron Pressure.lvlib" Type="Library" URL="../Baratron/Baratron Pressure/Baratron Pressure.lvlib"/>
-			<Item Name="Baratron.lvlib" Type="Library" URL="../Baratron/Baratron/Baratron.lvlib"/>
+			<Item Name="Baratron.lvclass" Type="LVClass" URL="../Baratron/Baratron/Baratron.lvclass"/>
 		</Item>
 		<Item Name="BPG" Type="Folder">
-			<Item Name="BPG Pressure.lvlib" Type="Library" URL="../BPG/BPG Pressure/BPG Pressure.lvlib"/>
-			<Item Name="BPG.lvlib" Type="Library" URL="../BPG/BPG/BPG.lvlib"/>
+			<Item Name="BPG.lvclass" Type="LVClass" URL="../BPG/BPG/BPG.lvclass"/>
+		</Item>
+		<Item Name="Get Voltage" Type="Folder">
+			<Item Name="Receive Voltage Msg.lvclass" Type="LVClass" URL="../Get Voltage/Get Voltage Messages/Receive Voltage Msg/Receive Voltage Msg.lvclass"/>
+			<Item Name="Get Voltage.lvclass" Type="LVClass" URL="../Get Voltage/Get Voltage/Get Voltage.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
