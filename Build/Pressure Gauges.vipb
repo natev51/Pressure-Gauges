@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-11 09:54:15" Modified_Date="2025-03-11 10:42:20" Creator="Erik" Comments="" ID="4e66d93af667b53e166472d3f61aadf0">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-11 09:54:15" Modified_Date="2025-03-12 10:12:52" Creator="Erik" Comments="" ID="7c5c03054bd62f44ca7e48a47fc44e40">
   <Library_General_Settings>
     <Package_File_Name>NathanCo_lib_Pressure_Gauges</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -111,9 +111,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -273,7 +270,7 @@
         <Path>..\Source\Get Voltage</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EE215994722FC668E970416C64DA1B87</GUID>
+      <GUID>0B6EB535D2076E01C543E57795F0B726</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -308,7 +305,7 @@
         <Path>..\Source\APG\APG\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A84B05DCBA7453213196804F82FD267</GUID>
+      <GUID>3818C9C509AA361374C51EE677942340</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -343,7 +340,7 @@
         <Path>..\Source\Baratron\Baratron\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A8D3DCDFFC3D5AC63ECCF1BCC657D3C5</GUID>
+      <GUID>AF900D6CC6697759A8C5D41C8E9EDF86</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -378,7 +375,7 @@
         <Path>..\Source\BPG\BPG\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>971CFB63993411E3B14558427B1013DE</GUID>
+      <GUID>DEC8B67A3F34A9413F49A5F1834A69D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -413,7 +410,7 @@
         <Path>..\Source\Get Voltage\Get Voltage Messages\Receive Voltage Msg\Send Receive Voltage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D593C6CEDA5B0A3B5BCC4F63B1D0CBE</GUID>
+      <GUID>E1F2917081CCAA9055FD3F5F796B1B47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -448,7 +445,7 @@
         <Path>..\Source\Pressure Gauges\Pressure Gauges Messages\Received Pressure Msg\Send Received Pressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45410DD98D1F761FFCF04A045B4A99E2</GUID>
+      <GUID>50AB05AB69C8EE0AD033BF8FC2A779B6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
