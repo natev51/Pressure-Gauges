@@ -25,15 +25,15 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="Get Voltage.lvclass" Type="Parent" URL="../../../Get Voltage/Get Voltage/Get Voltage.lvclass"/>
+		<Item Name="Analog Input Interface Messages.lvclass" Type="Parent" URL="/&lt;vilib&gt;/NathanCo/Analog Tasks/Analog Input/Analog Input Interface Messages/Analog Input Interface Messages/Analog Input Interface Messages.lvclass"/>
 		<Item Name="Panel Actor.lvlib:Panel Actor.lvclass" Type="Parent" URL="/&lt;vilib&gt;/MGI/Panel Manager/Panel Actor/Panel Actor/Panel Actor.lvclass"/>
 	</Item>
 	<Item Name="Baratron.ctl" Type="Class Private Data" URL="Baratron.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Messages" Type="Folder">
-		<Item Name="Receive Voltage.vi" Type="VI" URL="../Receive Voltage.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%\!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%*B=G&amp;U=G^O,GRW9WRB=X-!!!R#98*B&gt;(*P&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%"5!!-)6W&amp;W:7:P=GU!!"R!1!!"`````Q!($V*F9W6J&gt;G5A6G^M&gt;'&amp;H:1!I1(!!(A!!%B"#98*B&gt;(*P&lt;CZM&gt;G.M98.T!!!,1G&amp;S982S&lt;WYA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!#%!!!!*!!!!!!!1!+!!!!!!</Property>
+		<Item Name="Analog Input Voltages.vi" Type="VI" URL="../Analog Input Voltages.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%*B=G&amp;U=G^O,GRW9WRB=X-!!!R#98*B&gt;(*P&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%"5!!-)6W&amp;W:7:P=GU!!#*!1!!"`````Q!(&amp;5&amp;O97RP:S"*&lt;H"V&gt;#"7&lt;WRU97&gt;F=Q!I1(!!(A!!%B"#98*B&gt;(*P&lt;CZM&gt;G.M98.T!!!,1G&amp;S982S&lt;WYA;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!)!!E$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!#%!!!!*!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>

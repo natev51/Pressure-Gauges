@@ -26,10 +26,6 @@
 		<Item Name="BPG" Type="Folder">
 			<Item Name="BPG.lvclass" Type="LVClass" URL="../BPG/BPG/BPG.lvclass"/>
 		</Item>
-		<Item Name="Get Voltage" Type="Folder">
-			<Item Name="Receive Voltage Msg.lvclass" Type="LVClass" URL="../Get Voltage/Get Voltage Messages/Receive Voltage Msg/Receive Voltage Msg.lvclass"/>
-			<Item Name="Get Voltage.lvclass" Type="LVClass" URL="../Get Voltage/Get Voltage/Get Voltage.lvclass"/>
-		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -86,6 +82,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Search Analog Waveform.vi" Type="VI" URL="/&lt;vilib&gt;/NathanCo/Analog Tasks/Utilities/Search Analog Waveform.vi"/>
 				<Item Name="Colors.ctl" Type="VI" URL="/&lt;vilib&gt;/NathanCo/Color Compare/Utilities/Colors.ctl"/>
+				<Item Name="Analog Input Interface Messages.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NathanCo/Analog Tasks/Analog Input/Analog Input Interface Messages/Analog Input Interface Messages/Analog Input Interface Messages.lvclass"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
