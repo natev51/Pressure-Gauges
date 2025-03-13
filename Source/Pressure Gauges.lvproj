@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Pressure to Caller" Type="Folder">
+			<Item Name="Pressure to Caller.lvclass" Type="LVClass" URL="../Pressure to Caller/Pressure to Caller.lvclass"/>
+		</Item>
 		<Item Name="Pressure Gauges" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Received Pressure Msg.lvclass" Type="LVClass" URL="../Pressure Gauges/Pressure Gauges Messages/Received Pressure Msg/Received Pressure Msg.lvclass"/>
