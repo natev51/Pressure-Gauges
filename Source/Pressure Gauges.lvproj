@@ -32,7 +32,7 @@
 		<Item Name="Configuration" Type="Folder">
 			<Item Name="APG-L_Lookup.csv" Type="Document" URL="../Configuration/APG-L_Lookup.csv"/>
 			<Item Name="APG-M_Lookup.csv" Type="Document" URL="../Configuration/APG-M_Lookup.csv"/>
-			<Item Name="Return Configuration Directory.vi" Type="VI" URL="../Configuration/Return Configuration Directory.vi"/>
+			<Item Name="APG Return Configuration Directory.vi" Type="VI" URL="../Configuration/APG Return Configuration Directory.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
