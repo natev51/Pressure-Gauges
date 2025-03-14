@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-11 09:54:15" Modified_Date="2025-03-13 14:35:59" Creator="Erik" Comments="" ID="a029edd1c6cb186b22415d51474ea8f8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-03-11 09:54:15" Modified_Date="2025-03-13 19:59:17" Creator="Erik" Comments="" ID="2619539f15f77f8d5224822515bc2191">
   <Library_General_Settings>
     <Package_File_Name>NathanCo_lib_Pressure_Gauges</Package_File_Name>
-    <Library_Version>1.0.0.5</Library_Version>
+    <Library_Version>1.0.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\Source</Library_Source_Folder>
     <Library_Output_Folder>..\Package</Library_Output_Folder>
@@ -256,7 +256,7 @@
         <Path>..\Source\Pressure Gauges\Pressure Gauges Messages\Received Pressure Msg\Send Received Pressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>103906E66D7FA28D39AF667AC8D09329</GUID>
+      <GUID>E6112C4C57B7A89F1D97E34957CAFD6A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -291,7 +291,7 @@
         <Path>..\Source\APG\APG\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B7AE02B416F22CBCCEF7EFF22FAEFDB5</GUID>
+      <GUID>DE54A3D3C6F6CB52B0429B14BFE75C93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -326,7 +326,7 @@
         <Path>..\Source\Baratron\Baratron\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BB42389763B1AB3EAA831F91B1FBC20E</GUID>
+      <GUID>DB07C2434E64B7AFC84C772782D05B7E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -361,7 +361,7 @@
         <Path>..\Source\BPG\BPG\Configure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F07426ECF64FF68AC9CB229344432F97</GUID>
+      <GUID>50037304A07612377207CE8F797A36FA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

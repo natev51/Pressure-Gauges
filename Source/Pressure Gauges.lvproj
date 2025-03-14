@@ -29,6 +29,10 @@
 		<Item Name="BPG" Type="Folder">
 			<Item Name="BPG.lvclass" Type="LVClass" URL="../BPG/BPG/BPG.lvclass"/>
 		</Item>
+		<Item Name="Configuration" Type="Folder">
+			<Item Name="APG-L_Lookup.csv" Type="Document" URL="../Configuration/APG-L_Lookup.csv"/>
+			<Item Name="APG-M_Lookup.csv" Type="Document" URL="../Configuration/APG-M_Lookup.csv"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
